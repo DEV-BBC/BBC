@@ -5,6 +5,109 @@
     transition: 0.5s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/* style header */
+
+/* left side of nav bar */
+body .header .container .header-content .left-side a {
+    color: #000000;
+}
+
+body .header .container .header-content .left-side a .brand-img {
+    width: 30px;
+    height: 30px;
+}
+
+body .header .container .header-content .left-side a .brand-text {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+body .header .container .header-content .left-side a .brand-text.color-toggle {
+    color: black;
+}
+
+body .header .container .header-content .left-side a .brand-text .brand-sub-title {
+    color: #645f5e;
+    font-weight: 800;
+}
+
+/* middle side of nav bar */
+body .header .container .header-content .middle-side ul .items {
+    display: inline-block;
+}
+
+body .header .container .header-content .middle-side ul .items a {
+    color: #000;
+    position: relative;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 7px 0;
+}
+
+/* right side of nave bar */
+body .header .container .header-content .right-side ul {
+    margin: 0;
+}
+
+body .header .container .header-content .right-side ul .icons {
+    display: inline-block;
+    cursor: pointer;
+}
+
+body .header .container .header-content .right-side ul .icons:hover {
+    
+    transform: scale(1.05);
+}
+
+body .header .container .header-content .right-side ul .icons .btn-login {
+    background: transparent;
+	border: 1px solid #000;
+
+}
+
+/* the hero */
+body .hero {
+    background-color: rgb(248, 228, 205);
+    position: relative;
+}
+
+body .hero .container .hero-content {
+    top: 55%;
+    left: 50%;
+}
+
+body .hero .container .hero-content .content .hero-title {
+    font-size: 30px;
+    
+}
+
+body .hero .container .hero-content .content .hero-title .hero-sub-title {
+    color: #ff5722;
+}
+
+body .hero .container .hero-content .content .hero-under-text {
+    
+}
+
+body .hero .container .hero-content .content .hero-btn {
+    background-color: #000;
+    width: max-content;
+}
+
+body .hero .container .hero-content .content .hero-btn a {
+    color: #fff;
+	text-decoration: none;
+	
+}
+
+body .hero .container .hero-content .content .hero-btn:hover {
+    background-color: #fff;
+	border: #000 1px solid;
+}
+
+body .hero .container .hero-content .content .hero-btn:hover a {
+    color: #000;
+}
 
 /* style testemonial */
 .testimonial h1 {
