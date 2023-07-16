@@ -30,19 +30,24 @@
                             </p>
                         </a>
                     </div>
-                    <div class="middle-side">
+                    <div class="middle-side" id="navbar">
+                        <!-- this is button for close side menu -->
+                        <i class='bx bx-x-circle m-1 d-md-none' id="closbtn" ></i>
+                        
                         <ul>
-                            <li class="items item1 mx-2"><a class="link" href='#about'>about</a></li>
-                            <li class="items item1 mx-2"><a class="link" href='#services'>services</a></li>
-                            <li class="items item1 mx-2"><a class="link" href='#categories'>categories</a></li>
-                            <li class="items item1 mx-2"><a class="link" href='#contact'>contact</a></li>
+                            <li class="items mx-2"><a class="link" href='#about'>about</a></li>
+                            <li class="items mx-2"><a class="link" href='#services'>services</a></li>
+                            <li class="items mx-2"><a class="link" href='#Products'>Products</a></li>
+                            <li class="items mx-2"><a class="link" href='#contact'>contact</a></li>
                         </ul>
                     </div>
                     <div class=right-side>
                         <ul>
-                            <li class="icons icon mx-2"><i class='bx bx-shopping-bag'></i></li>
-                            <li class="icons icon mx-2"><i class='bx bx-user'></i></li>
-                            <li class="icons icon mx-2"><a href="" class="btn btn-login">login</a></li>
+                            <li class="icons mx-2"><i class='bx bx-shopping-bag'></i></li>
+                            <li class="icons mx-2"><i class='bx bx-user'></i></li>
+                            <li class="icons mx-2"><a href="" class="btn btn-login">login</a></li>
+                            <!-- this is button to open side menu -->
+                            <li class="icons mx-2 d-md-none"><i class='bx bx-menu' id="menu" ></i></li>
                         </ul>
                     </div>
                 </div>
@@ -52,13 +57,13 @@
             <div class="container">
                 <div class="hero-content d-flex justify-content-center align-items-center position-absolute translate-middle w-75">
                     <div class="content d-flex row justify-content-center align-items-center " data-aos='fade-up' data-aos-delay='150'>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="content-image col-11 col-md-6">
-                                <img class="w-50" src="./img/image1.png" alt="img1" >
+                        <div class="row  ">
+                            <div class="content-image col-lg-6 col-11 ">
+                                <img class="w-75" src="./img/image1.png" alt="img1" >
                             </div>
-                            <div class="text-center col-11 col-md-6">
+                            <div class="text-center d-flex row justify-content-center align-items-center col-lg-6 col-11 ">
 
-                                <p class="hero-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam obcaecati, quaerat suscipit earum saepe repellat aliquid. Minima voluptas consectetur, iusto explicabo rerum quae, natus, minus soluta iure suscipit quibusdam architecto? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam obcaecati, quaerat suscipit earum saepe repellat aliquid. Minima voluptas consectetur, iusto explicabo rerum quae, natus, minus soluta iure suscipit quibusdam architecto? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                             </div>
                         </div>
                         <button class="hero-btn  py-2 px-3 rounded mt-3"><a href = '#'>Shop Now</a></button>

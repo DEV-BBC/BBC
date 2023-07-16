@@ -34,6 +34,7 @@ body .header .container .header-content .left-side a .brand-text .brand-sub-titl
 /* middle side of nav bar */
 body .header .container .header-content .middle-side ul .items {
     display: inline-block;
+	text-transform: capitalize;
 }
 
 body .header .container .header-content .middle-side ul .items a {
@@ -182,4 +183,26 @@ body .hero .container .hero-content .content .hero-btn:hover a {
 	border-radius: 50%; 
      
     background: #EEDDCC;
+}
+/* media quiry */
+@media (max-width: 768px) {
+    .middle-side {
+		position: absolute;
+        right: -110%;
+		height: 100vh;
+		
+    }
+    .middle-side.show {
+		position: absolute;
+        right: 0;
+		top: 0;
+		height: 100vh;
+		z-index: 10001;
+		width: 25%;
+		background-color: #F8F9F9;
+    }
+    .middle-side.show ul .items {
+		margin-block: 1rem;
+    }
+    
 }
