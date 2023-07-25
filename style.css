@@ -202,7 +202,7 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     
     flex-shrink: 0;
 }
-.sec3 .my_part .content{
+.sec3 .my_part .content_trend .title_trend .info{
     
    justify-content: space-between;
    
@@ -218,9 +218,8 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
         
   }
-.title{
+.title_trend{
     display: flex;
-    
     flex-direction: column;
     color: #000;
     font-family: Abhaya Libre;
@@ -228,6 +227,10 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+#trend_body{
+    font-size: 30px;
+    font-weight: 500px;
 }
 
 .info{
@@ -243,8 +246,12 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     border-radius: 0px 0px 70px 0px;
     background: #EDC;
 }
-.button{
-    display: flex;
+#buttons{
+    
+}
+#button_trend{
+    display: block;
+    margin: auto;
     width: 528px;
     height: 80px;
     flex-shrink: 0;
