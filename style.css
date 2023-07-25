@@ -140,10 +140,6 @@ body .hero .container .hero-content .content .hero-btn:hover a {
 	font-size: 28;
     
 }
-.carousel .carousel-item .content div img{
-	
-    
-}
 .carousel .carousel-item .content div h6{
 	font-size: 28;
     
@@ -245,9 +241,6 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     padding: 20px;
     border-radius: 0px 0px 70px 0px;
     background: #EDC;
-}
-#buttons{
-    
 }
 #button_trend{
     display: block;
