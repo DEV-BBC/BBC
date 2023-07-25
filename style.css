@@ -195,13 +195,10 @@ body .hero .container .hero-content .content .hero-btn:hover a {
 
 /* Trending products section */
 .sec3{
-    
     flex-shrink: 0;
 }
 .sec3 .my_part .content_trend .title_trend .info{
-    
    justify-content: space-between;
-   
 }
 .my_part {
     background: #78645D;
@@ -228,16 +225,7 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     font-size: 30px;
     font-weight: 500px;
 }
-
 .info{
-    background-color: #b8b0ad;
-    display: flex;
-    margin-left: auto;
-    margin-right: 20;
-    
-    flex-shrink: 0;
-    background-position: left top;
-    background-repeat: repeat;
     padding: 20px;
     border-radius: 0px 0px 70px 0px;
     background: #EDC;
@@ -259,7 +247,6 @@ body .hero .container .hero-content .content .hero-btn:hover a {
 }
 .numbers{
     display: flex;
-    
     flex-direction: column;
     color: #000;
     font-family: Abhaya Libre;
@@ -270,7 +257,6 @@ body .hero .container .hero-content .content .hero-btn:hover a {
 }
 .text{
     display: flex;
-    
     flex-direction: column;
     color: #000;
     font-family: Poppins;
