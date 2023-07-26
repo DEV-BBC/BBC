@@ -229,6 +229,7 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     padding: 20px;
     border-radius: 0px 0px 70px 0px;
     background: #EDC;
+    margin-top:40%;
 }
 #button_trend{
     display: block;
@@ -254,6 +255,8 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     font-style: normal;
     font-weight: 400;
     line-height: 45px;
+    padding: 5px;
+    text-align: center;
 }
 .text{
     display: flex;
@@ -264,6 +267,8 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     font-style: normal;
     font-weight: 400;
     line-height: 45px;
+    padding: 5px;
+    text-align: center;
 }
 /* our product */
 .content{
