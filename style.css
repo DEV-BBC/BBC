@@ -194,6 +194,20 @@ body .hero .container .hero-content .content .hero-btn:hover a {
 }
 
 /* Trending products section */
+
+/* on scroll animation */
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+.show{
+    display: inline-block;
+    opacity: 1;
+  margin: 0 0.5rem;
+  animation: fadeInRight;
+  animation-duration: 2s;
+}
+
 .sec3{
     flex-shrink: 0;
 }
