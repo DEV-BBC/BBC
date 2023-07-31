@@ -375,3 +375,28 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     background: black;
     color: white;
 }
+
+/* ABOUT US  */
+
+.about_us{
+    background-color:rgb(229, 225, 219);
+}
+.img_about_us{
+    width: 300px;
+    left:200px;
+}
+.btn_about_us{
+    display: block;
+    margin: auto;
+    width: 528px;
+    height: 80px;
+    flex-shrink: 0;
+    background: #000;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.25px; 
+}
