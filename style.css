@@ -54,6 +54,10 @@ body .header .container .header-content .right-side ul .icons .btn-login {
 
 }
 
+.icons > a {
+    color:#0c0808;
+}
+
 /* the hero */
 body .hero {
     background-color: rgb(248, 228, 205);
