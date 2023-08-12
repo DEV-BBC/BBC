@@ -250,12 +250,12 @@ body .hero .container .hero-content .content .hero-btn:hover a {
     border-radius: 0px 0px 70px 0px;
     background: #EDC;
     margin-top:40%;
+    width: fit-content;
 }
 #button_trend{
     display: block;
     margin: auto;
-    width: 528px;
-    height: 80px;
+    padding: 1rem;
     flex-shrink: 0;
     background: #000;
     color: #FFF;
