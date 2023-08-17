@@ -88,3 +88,18 @@
    margin-left: -15rem;
 }
 }
+
+.btn_add{
+  background-color:var(--second-bg-color) ;
+  color: #009d63;
+  font-weight: 600;
+  border-radius: 8px;
+  width: 5rem;
+}
+.btn_edit {
+  background-color: rgb(61, 124, 241);
+  border-radius: 8px;
+  color: black;
+  font-weight: 600;
+  width: 5rem;
+}
