@@ -120,7 +120,7 @@ gap : 30px;
 .inputBox input{
  width: 100%;
  padding: 10px;
- border: 1px solid rgba (255,255,255,0.25);
+ border: 1px solid black;
  background:var(--second-bg-color);
  border-radius: 5px;
  outline: none;
@@ -153,4 +153,16 @@ gap : 30px;
 .inputBox input:valid,
 .inputBox input:focus{
   border: 1px solid rgb(61, 124, 241);
+}
+
+input[type="file"]{
+  display: none;
+}
+label{
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  transition: 0.5s;
 }
