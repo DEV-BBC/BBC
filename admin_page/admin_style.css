@@ -103,3 +103,54 @@
   font-weight: 600;
   width: 5rem;
 }
+
+.inputContainer{
+display: flex;
+justify-content: top;
+align-items: center;
+min-height: 100vh;
+flex-direction: column;
+gap : 30px;
+}
+.inputBox{
+  
+ position: relative;
+ width: 300px;
+}
+.inputBox input{
+ width: 100%;
+ padding: 10px;
+ border: 1px solid rgba (255,255,255,0.25);
+ background:var(--second-bg-color);
+ border-radius: 5px;
+ outline: none;
+  color: black;
+ font-size: 1em;
+
+}
+.inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: 0.5s;
+  
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
+{
+  color:rgb(61, 124, 241);
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background-color:var(--second-bg-color);
+  border-left: 1px solid rgb(61, 124, 241);
+  border-right:1px solid rgb(61, 124, 241)  ;
+  letter-spacing: 0.2em;
+}
+.inputBox input:valid,
+.inputBox input:focus{
+  border: 1px solid rgb(61, 124, 241);
+}
