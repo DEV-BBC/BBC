@@ -113,7 +113,6 @@ flex-direction: column;
 gap : 30px;
 }
 .inputBox{
-  
  position: relative;
  width: 300px;
 }
@@ -155,14 +154,20 @@ gap : 30px;
   border: 1px solid rgb(61, 124, 241);
 }
 
-input[type="file"]{
-  display: none;
-}
-label{
-  position: absolute;
-  left: 0;
-  padding: 10px;
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  transition: 0.5s;
+input::file-selector-button, input[type="submit"]{
+  background-image: linear-gradient(
+    to right,
+    #00a5cf,
+    #9fffcb,
+    #25a18e 100%,
+    #25a18e 200%
+  );
+  background-position-x: 0%;
+  background-size: 200%;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  padding: 1rem 1.25rem;
+  text-shadow: 0 1px 1px #333;
+  cursor: pointer;
 }
